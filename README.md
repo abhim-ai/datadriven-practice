@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/lucky_crest_8115), committ
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [The Event Bucketer](./practice/python/the-event-bucketer) | Python | Easy | 2026-10-02 |
 | [The Long Run](./practice/python/the-long-run) | Python | Easy | 2026-10-02 |
 
 <!-- datadriven:index:end -->
