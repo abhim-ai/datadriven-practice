@@ -40,7 +40,11 @@ def hourly_event_counts(logs: list[tuple[str, str]]) -> dict[str, dict[str, int]
     #increment the event couunt in the res defaultdict
     res[ts_h][event]+=1
     
-  return res
+  result={}
+  for hour in res:
+    result[hour]=dict(res[hour])
+    
+  return result
     
     
   
