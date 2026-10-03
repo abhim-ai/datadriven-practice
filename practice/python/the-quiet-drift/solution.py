@@ -34,17 +34,27 @@ def reconcile(source_a: list[dict], source_b: list[dict], id_field: str) -> dict
   return result
 
 
-def diff_check(rec_a: dict, rec_b: dict, id_field: str) -> dict:
+# def diff_check(rec_a: dict, rec_b: dict, id_field: str) -> dict:
+#   differences = {}
+#   all_fields = set(rec_a) | set(rec_b)
+#   all_fields.discard(id_field)
+#   for field in all_fields:
+#     if field not in rec_a:
+#       if rec_b[field] is not None:
+#         differences[field] = {"a": None, "b": rec_b[field]}
+#     elif field not in rec_b:
+#       if rec_a[field] is not None:
+#         differences[field] = {"a": rec_a[field], "b": None}
+#     elif rec_a[field] != rec_b[field]:
+#       differences[field] = {"a": rec_a[field], "b": rec_b[field]}
+#   return differences
+def diff_check(record_a: dict, record_b: dict, id_field: str) -> dict:
   differences = {}
-  all_fields = set(rec_a) | set(rec_b)
+  all_fields = set(record_a) | set(record_b)
   all_fields.discard(id_field)
   for field in all_fields:
-    if field not in rec_a:
-      if rec_b[field] is not None:
-        differences[field] = {"a": None, "b": rec_b[field]}
-    elif field not in rec_b:
-      if rec_a[field] is not None:
-        differences[field] = {"a": rec_a[field], "b": None}
-    elif rec_a[field] != rec_b[field]:
-      differences[field] = {"a": rec_a[field], "b": rec_b[field]}
+    value_a = record_a.get(field)
+    value_b = record_b.get(field)
+    if value_a != value_b:
+      differences[field] = {"a": value_a, "b": value_b}
   return differences
