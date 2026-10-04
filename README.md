@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/lucky_crest_8115), committ
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Bargains and Budget-Busters](./practice/sql/bargains-and-budget-busters) | SQL | Hard | 2026-10-04 |
 | [The Quiet Drift](./practice/python/the-quiet-drift) | Python | Medium | 2026-10-03 |
 | [Round and Round They Go](./practice/python/round-and-round-they-go) | Python | Medium | 2026-10-03 |
 | [7-Check Rolling Average](./practice/sql/7-check-rolling-average) | SQL | Medium | 2026-10-03 |
