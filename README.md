@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/lucky_crest_8115), committ
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [The Listeners](./practice/python/the-listeners) | Python | Medium | 2026-10-05 |
 | [Back to Back](./practice/python/back-to-back) | Python | Medium | 2026-10-04 |
 | [Daily Error Count Change](./practice/sql/daily-error-count-change) | SQL | Medium | 2026-10-04 |
 | [Cloud Cost Trend Analysis](./practice/sql/cloud-cost-trend-analysis) | SQL | Medium | 2026-10-04 |
