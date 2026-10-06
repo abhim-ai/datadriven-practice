@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/lucky_crest_8115), committ
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [The Tail End](./practice/python/the-tail-end) | Python | Easy | 2026-10-06 |
 | [The Freshest Record](./practice/sql/the-freshest-record) | SQL | Medium | 2026-10-05 |
 | [The Listeners](./practice/python/the-listeners) | Python | Medium | 2026-10-05 |
 | [Back to Back](./practice/python/back-to-back) | Python | Medium | 2026-10-04 |
